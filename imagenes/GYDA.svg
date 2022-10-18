@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.492607mm"
+   height="20.129765mm"
+   viewBox="0 0 74.492607 20.129765"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="GYDA.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.9337923"
+     inkscape:cx="154.74851"
+     inkscape:cy="77.374256"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="384.86389"
+       y="483.21799"
+       width="305.75299"
+       height="200.98448"
+       id="rect179" />
+    <rect
+       x="228.7802"
+       y="290.78604"
+       width="463.97479"
+       height="425.4884"
+       id="rect173" />
+    <rect
+       x="284.37164"
+       y="194.57008"
+       width="117.5973"
+       height="136.84048"
+       id="rect117" />
+    <rect
+       x="384.86389"
+       y="483.21799"
+       width="305.75299"
+       height="200.98448"
+       id="rect179-6" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.782159,-0.1260009)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text115"
+       style="white-space:pre;shape-inside:url(#rect117);display:inline;fill:#e3dbdb" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text171"
+       style="white-space:pre;shape-inside:url(#rect173);display:inline;fill:#e3dbdb" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.2735242,0,0,0.2994665,-73.718121,-151.34046)"
+       id="text177"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect179-6);display:inline;fill:#502d16"><tspan
+         x="384.86328"
+         y="571.41266"
+         id="tspan482">GYDA</tspan></text>
+  </g>
+</svg>

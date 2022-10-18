@@ -1,0 +1,107 @@
+h1{
+    color: map-get($map:$paleta, $key:"tres");
+    font-family: $mainFont;
+    font-weight: $textBold;
+    font-style: italic;
+    
+}
+
+h2{
+    font-size: $textLg;
+    color: map-get($map:$paleta, $key:"dos");
+    font-weight: $textThin;
+    font-family: $secondaryFont;
+}
+
+h3{
+    font-size: $textMd;
+    font-family: $extraFont;
+}
+
+h4{
+    font-size: $textSm;
+    color: map-get($map:$paleta, $key:"tres");
+}
+
+.pie__icon--sm{
+	width: 40px;
+}
+
+.pie__icon--md{
+	width: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body{
+    background-image: url(../imagenes/Fondo.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.btn-change{
+    background-color: map-get($map:$paleta, $key:"cuatro") !important;
+    color: map-get($map:$paleta, $key:"tres");
+    font-weight: $textRegular;
+    border-radius: 5px;
+    border-color: black;
+    outline-color: red !important;
+    &:hover{
+        color:map-get($map:$paleta, $key:"tres");
+        border-color: map-get($map:$paleta, $key:"tres");
+        background-color: map-get($map:$paleta, $key:"siete") !important;
+    }
+}
+
+.bg-violet{
+background-color: map-get($map:$paleta, $key:"uno");
+}
+
+.bg-light{
+    background-color: map-get($map:$paleta, $key:"cuatro");
+}
+
+.flex{
+display: flex;
+}
+
+.w-200{
+width: 200px;
+}
+
+.w-150{
+width: 150px;
+}
+
+.radial-gradient{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.aside{
+    font-size: $textMd;
+}
+
+.flexEnd{
+    align-content: flex-end;
+}
+
+.flexStart{
+    align-content: flex-start;
+}
+
+#selectoresAvanzados p.one:first-letter{
+    font-size: $textXS;
+    font-weight: $textBold;
+    font-style: italic;
+}
+
+ol li{
+    font-size: $textXS;
+    &::first-letter{
+        font-weight: $textBold;
+        font-style: italic;
+        font-size: $textSm;
+    }
+}
+

@@ -1,0 +1,16 @@
+nav{
+    
+    img {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+#botonera ul li a:active{
+    font-weight: $textExtraBold;
+    
+    &:hover{
+        color: #292829;
+    }
+}

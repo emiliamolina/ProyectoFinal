@@ -1,0 +1,38 @@
+.radial-gradient{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
+}
+
+.scale:hover{
+    transform: scaleX(1.5);
+    cursor:pointer;
+    transition: transform 1s;
+
+}
+
+@keyframes animateDiv{
+    0%{width: 100px; background-color: pink}
+    50%{width: 200px; background-color: violet}
+    100%{width: 100px; background-color: deeppink;}
+
+}
+
+.animate{
+    animation-name: animateDiv;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+
+@keyframes transparencia{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+.textAlpha{
+    animation-name: transparencia;
+    animation-duration: 5s;
+    font-size: 4rem;
+}

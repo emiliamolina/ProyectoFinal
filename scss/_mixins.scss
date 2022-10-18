@@ -1,0 +1,38 @@
+@mixin parrafos($size,$interlineado,$color,$align){
+    font-size: $textSm;
+    line-height: $interlineado;
+    color:$color;
+    margin: 10px 30px;
+    padding: 10px;
+    font-family: $extraFont;
+    @if $align== center{text-align: center}
+    @if $align == left{text-align: left}
+    @if $align == right{text-align: right}
+}
+
+//maps
+$paleta:(
+    'uno': rgba(238, 188, 247, 0.7),
+    'dos': rgba(54, 7, 44, 0.781),
+    'tres':#80436d,
+    'cuatro':rgb(243, 240, 240),
+    'cinco': #292829,
+    'seis':#bb20c1,
+    'siete':rgb(255, 255, 255),
+       
+);
+
+//extends
+
+.btn-rounded{
+    @extend .btn-change;
+    border-radius: 10px;
+    
+}
+
+.btn-comprar{
+    @extend .btn-change;
+    border-radius: 3px;
+    border: solid;
+}
+

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Roboto:ital@1&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.centrado {
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+#botonera ul li a:active {
+  font-weight: 700;
+}
+#botonera ul li a:active:hover {
+  color: #292829;
+}
+
+.btn-rounded {
+  border-radius: 10px;
+}
+
+.btn-comprar {
+  border-radius: 3px;
+  border: solid;
+}
+
+h1 {
+  color: #80436d;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgba(54, 7, 44, 0.781);
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #80436d;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.pie__icon--md {
+  width: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color: rgba(238, 188, 247, 0.7);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.btn-change, .btn-rounded, .btn-comprar {
+  background-color: rgb(243, 240, 240) !important;
+  color: #80436d;
+  font-weight: 400;
+  border-radius: 5px;
+  border-color: black;
+  outline-color: red !important;
+}
+.btn-change:hover, .btn-rounded:hover, .btn-comprar:hover {
+  color: #80436d;
+  border-color: #80436d;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.bg-violet {
+  background-color: rgba(238, 188, 247, 0.7);
+}
+
+.bg-light {
+  background-color: rgb(243, 240, 240);
+}
+
+.flex {
+  display: flex;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-20 {
+  width: 30px;
+}
+
+.radial-gradient {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+.Font1 {
+  font-size: 1.5rem;
+}
+
+.flexEnd {
+  align-content: flex-end;
+}
+
+.flexStart {
+  align-content: flex-start;
+}
+
+#selectoresAvanzados p.one:first-letter {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+ol li {
+  font-size: 1.5rem;
+}
+ol li::first-letter {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
+
+
+
+/* ========== media queries min 992px ========== */
